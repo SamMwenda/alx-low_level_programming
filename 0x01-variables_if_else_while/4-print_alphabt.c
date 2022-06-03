@@ -21,7 +21,7 @@ int main(void)
 	char myChar;
 
 	for (myChar = 'A'; myChar <= 'Z'; myChar++)
-	{	
+	{
 		if (myChar == 'E' || myChar == 'Q')
 		{
 			continue;
