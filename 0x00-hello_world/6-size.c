@@ -2,7 +2,7 @@
  * 6-size.c
  * A program that prints size of various types
  */
-#include<stdio.h>
+#include <stdio.h>
 /**
  * main - My entry point for my program
  * sizeof - evaluates the size of a variable
@@ -11,7 +11,7 @@
 int main(void)
 {
 	char charType;
-	int intType;
+	int  intType;
 	long int longIntType;
 	long long int longLongIntType;
 	float floatType;
