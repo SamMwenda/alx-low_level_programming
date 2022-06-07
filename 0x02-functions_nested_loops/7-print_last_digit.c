@@ -16,6 +16,10 @@ int print_last_digit(int a)
 			_putchar(i);
 			break;
 		}
+		else
+		{
+			continue;
+		}
 	}
 	return (a % 10);
 }
