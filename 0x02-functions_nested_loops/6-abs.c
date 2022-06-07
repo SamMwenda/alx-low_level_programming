@@ -5,7 +5,7 @@
  * @a: number to return absolute value
  * Return: the absolute value of a number
  */
-int int_abs(int a)
+int _abs(int a)
 {
 	if (a < 0)
 	{
