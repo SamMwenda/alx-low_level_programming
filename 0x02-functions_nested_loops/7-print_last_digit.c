@@ -7,6 +7,14 @@
  */
 int print_last_digit(int a)
 {
-	_putchar('0' + a);
+	int i;
+
+	for (i = 48; i <= 57; i++)
+	{
+		if (i == a)
+		{
+			_putchar('0' + a);
+		}
+	}
 	return (a % 10);
 }
