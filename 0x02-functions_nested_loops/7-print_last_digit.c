@@ -7,19 +7,6 @@
  */
 int print_last_digit(int a)
 {
-	int i;
-
-	for (i = 48; i <= 57; i++)
-	{
-		if (i == (a + '0'))
-		{
-			_putchar(i);
-			break;
-		}
-		else
-		{
-			continue;
-		}
-	}
+	_putchar((a % 10) + '0');
 	return (a % 10);
 }
