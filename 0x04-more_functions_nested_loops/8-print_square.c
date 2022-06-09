@@ -18,12 +18,12 @@ void print_square(int n)
 	{
 		while (n != 0)
 		{
-	for (i = 1; i <= j; i++)
-	{
-_putchar(35);
-}
-_putchar('\n');
-n--;
-}
-}
+			for (i = 1; i <= j; i++)
+			{
+				_putchar(35);
+			}
+			_putchar('\n');
+			n--;
+		}
+	}
 }
