@@ -3,9 +3,6 @@
 
 /**
  * main - prints
- * Fizz if divisible by 3
- * Buzz if divisible by 5
- * FizzBuzz if divisible by 3 and 5
  * Return: Always 0
  */
 int main(void)
