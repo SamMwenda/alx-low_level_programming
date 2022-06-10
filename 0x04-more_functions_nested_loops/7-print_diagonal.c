@@ -29,7 +29,7 @@ void print_diagonal(int n)
 					_putchar(32);
 				}
 			}
-			printf("\n");
+			_putchar('\n');
 		}
 	}
 }
