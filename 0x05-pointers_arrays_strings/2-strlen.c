@@ -6,16 +6,8 @@
  */
 int _strlen(char *s)
 {
-	if (*s == 'L')
-	{
-		return (445);
-	}
-	else if (*s == 'H')
-	{
-		return (10);
-	}
-	else
-	{
-		return (0);
-	}
+	int length = 0;
+
+	while (*s++)
+		length++;
 }
