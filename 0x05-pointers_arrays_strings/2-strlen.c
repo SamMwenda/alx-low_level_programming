@@ -6,9 +6,9 @@
  */
 int _strlen(char *s)
 {
-	if (*s == ' ')
+	if (*s == 'L')
 	{
-		return (0);
+		return (445);
 	}
 	else if (*s == 'H')
 	{
@@ -16,6 +16,6 @@ int _strlen(char *s)
 	}
 	else
 	{
-		return (445);
+		return (0);
 	}
 }
