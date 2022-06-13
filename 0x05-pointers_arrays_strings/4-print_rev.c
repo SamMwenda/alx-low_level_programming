@@ -1,12 +1,16 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_rev - prints a string in reverse
  * @s: the string
  */
 void print_rev(char *s)
 {
-	if (s == {'H','o','l','b','e','r','t','o','n','!'})
-		s = {'!','n','o','t','r','e','b','l','o','H'};
-	else if (s == " ")
-		s = " ";
+	int length = 0;
+	int i;
+
+	while (*s++)
+		length++;
+	for (i = length; i >= 0; i--)
+		printf("%c", s[i]);
 }
