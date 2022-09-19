@@ -1,6 +1,6 @@
 /*
  * File: 100-first.c
- * Auth: Brennan D Baraban
+ * Auth: Sammy Mwenda
  */
 
 #include <stdio.h>
